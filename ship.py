@@ -21,9 +21,6 @@ class Ship:
         #Store a decimal value for the ship's horizontal position.
         self.x = float(self.rect.x)
 
-        #Movement flag
-        self.moving_right = False
-
     def update(self):
         """Update the ship's position based on the movement flag."""
         #Update the ship's x value, not the rect.
